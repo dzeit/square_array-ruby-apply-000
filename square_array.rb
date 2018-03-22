@@ -1,5 +1,8 @@
 def square_array(numbers)
-  numbers.collect do |number|
+  squared []
+  numbers.each do |number|
     number**2
   end
+  
+  squared
 end
